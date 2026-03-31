@@ -1,0 +1,53 @@
+<!-- Simple Tailwind CDN landing page -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Tailwind Landing</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gradient-to-br from-indigo-50 via-white to-pink-50">
+    <header class="max-w-5xl mx-auto p-8 flex items-center justify-between">
+      <h1 class="text-2xl font-extrabold text-indigo-700">Brand</h1>
+      <nav class="space-x-6 text-indigo-600">
+        <a href="#">Home</a>
+        <a href="#">Features</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-8">
+      <section class="grid md:grid-cols-2 gap-8 items-center">
+        <div>
+          <h2 class="text-4xl font-extrabold text-gray-900 mb-4">Build beautiful UIs quickly</h2>
+          <p class="text-gray-600 mb-6">A minimal landing page using Tailwind CSS CDN for fast prototypes and attractive visuals.</p>
+          <div class="flex gap-4">
+            <a class="px-6 py-3 bg-indigo-600 text-white rounded-lg shadow hover:bg-indigo-700" href="#">Get started</a>
+            <a class="px-6 py-3 border border-indigo-200 rounded-lg text-indigo-700" href="#">Learn more</a>
+          </div>
+        </div>
+        <div class="bg-white rounded-2xl p-6 shadow-lg">
+          <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=800&q=60" alt="preview" class="rounded-lg w-full h-64 object-cover" />
+        </div>
+      </section>
+
+      <section class="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <article class="p-6 bg-white rounded-xl shadow hover:shadow-lg transition">
+          <h3 class="font-semibold text-lg mb-2">Lightning fast</h3>
+          <p class="text-gray-500 text-sm">Optimized for speed and design flexibility.</p>
+        </article>
+        <article class="p-6 bg-white rounded-xl shadow hover:shadow-lg transition">
+          <h3 class="font-semibold text-lg mb-2">Responsive</h3>
+          <p class="text-gray-500 text-sm">Looks great on phones, tablets and desktop.</p>
+        </article>
+        <article class="p-6 bg-white rounded-xl shadow hover:shadow-lg transition">
+          <h3 class="font-semibold text-lg mb-2">Customizable</h3>
+          <p class="text-gray-500 text-sm">Tailwind makes theming effortless.</p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="mt-16 border-t py-6 text-center text-gray-500">© 2026 Brand — crafted with Tailwind</footer>
+  </body>
+</html>
